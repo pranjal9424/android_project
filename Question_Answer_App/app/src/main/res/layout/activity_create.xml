@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Create">
+    <RelativeLayout
+        android:id="@+id/animn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:gravity="center"
+            android:textColor="@color/colorOuter"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginTop="90dp"
+            />
+
+        <EditText
+            android:id="@+id/create_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Name"
+            android:textColorHint="@color/colorOuter"
+            android:background="@drawable/login"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginLeft="26dp"
+            android:drawableStart="@drawable/ic_login"
+            android:paddingLeft="6dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorOuter"
+            />
+
+        <EditText
+            android:id="@+id/create_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:textColor="@color/colorOuter"
+            android:textColorHint="@color/colorOuter"
+            android:background="@drawable/login"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginLeft="26dp"
+            android:drawableStart="@drawable/ic_id"
+            android:paddingLeft="6dp"
+            android:layout_below="@+id/create_name"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/create_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:textColorHint="@color/colorOuter"
+            android:background="@drawable/login"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginLeft="26dp"
+            android:textColor="@color/colorOuter"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:paddingLeft="6dp"
+            android:layout_below="@+id/create_email"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:id="@+id/create_account"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/create_password"
+            android:layout_marginLeft="26sp"
+            android:layout_marginRight="26sp"
+            android:text="create account"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button"
+            android:layout_marginTop="6dp"
+
+            />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3870552280259267/3725924220">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOuter"
+    tools:context=".Feedback">
+
+    <RelativeLayout
+        android:id="@+id/rel5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback Form"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorOuter"
+            android:gravity="center"
+            android:layout_marginTop="6dp"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/feedback_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rel5"
+        android:layout_marginTop="60dp"
+        android:hint="Enter Your name"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@drawable/ic_feed_email"
+        android:paddingLeft="20dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"/>
+
+    <EditText
+        android:id="@+id/feedback_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/feedback_name"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Your Email"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@drawable/ic_feed_email"
+        android:paddingLeft="20dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"/>
+
+    <EditText
+        android:id="@+id/feedback_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/feedback_email"
+        android:layout_marginTop="20dp"
+        android:hint="Feedback"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@drawable/ic_feed_email"
+        android:paddingLeft="20dp"
+        android:inputType="textLongMessage"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"/>
+
+    <Button
+        android:id="@+id/feedback_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Submit Feedback"
+        android:textColor="@color/colorOuter"
+        android:textStyle="bold"
+        android:layout_below="@id/feedback_message"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/submit"/>
+
+
+
+</RelativeLayout>
