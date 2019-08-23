@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="130dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"/>
+
+<com.rengwuxian.materialedittext.MaterialEditText
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    app:met_floatingLabel="normal"
+    android:hint="Username"
+    app:met_textColorHint="@color/colorPrimaryDark"
+    android:textColor="@color/colorPrimaryDark"
+    android:paddingLeft="50dp"
+    android:inputType="textPersonName"
+    />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="Email"
+            app:met_textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="50dp"
+            android:inputType="textEmailAddress"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="Password"
+            android:inputType="textPassword"
+            app:met_textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="50dp"
+            />
+
+<Button
+    android:id="@+id/btn_register"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimaryDark"
+    android:text="register"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"
+    />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
