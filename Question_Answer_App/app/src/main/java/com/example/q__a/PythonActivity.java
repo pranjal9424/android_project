@@ -100,6 +100,7 @@ public void run() {
                 mInterstitialAd.setAdUnitId("ca-app-pub-3870552280259267/9500941181");
                 mInterstitialAd.loadAd(new AdRequest.Builder().addTestDevice("3B1D1C41DFB56A8EF0C4254E2420EA42").build());
         }
+
 @Override
 public void onRefresh() {
 

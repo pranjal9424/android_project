@@ -109,7 +109,7 @@ DatabaseReference reference;
     class ViewPagerAdapter extends FragmentPagerAdapter{
 
         private ArrayList<Fragment> fragments;
-        private ArrayList<String > titles;
+        private ArrayList<String> titles;
 
         ViewPagerAdapter(FragmentManager fm){
             super(fm);
