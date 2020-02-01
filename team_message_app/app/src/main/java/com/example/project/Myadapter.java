@@ -1,6 +1,4 @@
 package com.example.project;
-
-import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
