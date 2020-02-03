@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Part1"
+    android:paddingBottom="10dp"
+    android:background="@color/colorPrimaryLight"
+    android:id="@+id/full_story">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        app:titleTextColor="@color/colorPrimary"
+
+        />
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="अध्याय :- 1"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="80dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:text="TextView"
+                android:textColor="#441405"
+                android:textSize="30sp" />
+        </ScrollView>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+        android:onClick="prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+        android:src="@drawable/ic_chevron_left_black_24dp"
+        android:background="@drawable/button"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <TextView
+            android:text="1/17"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratio"
+            android:paddingLeft="50dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingRight="50dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:onClick="next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/button"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_share_black_24dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="80dp"
+    android:id="@+id/btnshare"
+    />
+
+
+</RelativeLayout>
