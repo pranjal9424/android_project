@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/newlaytest"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+    <ListView
+        android:id="@+id/listview01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:divider="@color/colorPrimaryLight"
+        android:dividerHeight="05dp"
+        android:fastScrollEnabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollingCache="false"
+        android:transcriptMode="normal" />
+
+</LinearLayout>

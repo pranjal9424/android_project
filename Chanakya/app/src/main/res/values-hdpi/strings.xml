@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">चाणक्य नीति</string>
+    <string-array name="smsTopic">
+        <item>अध्याय :- 1</item>
+        <item>अध्याय :- 2</item>
+        <item>अध्याय :- 3</item>
+        <item>अध्याय :- 4</item>
+        <item>अध्याय :- 5</item>
+        <item>अध्याय :- 6</item>
+        <item>अध्याय :- 7</item>
+        <item>अध्याय :- 8</item>
+        <item>अध्याय :- 9</item>
+        <item>अध्याय :- 10</item>
+        <item>अध्याय :- 11</item>
+        <item>अध्याय :- 12</item>
+        <item>अध्याय :- 13</item>
+        <item>अध्याय :- 14</item>
+        <item>अध्याय :- 15</item>
+        <item>अध्याय :- 16</item>
+        <item>अध्याय :- 17</item>
+
+    </string-array>
+</resources>
