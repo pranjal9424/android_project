@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">English Stories</string>
+    <string-array name="smsTopic">
+        <item>Family Stories</item>
+        <item>Aladin Stories</item>
+        <item>Animal Stories</item>
+        <item>Bedtime Stories</item>
+        <item>Classic Stories</item>
+        <item>Education Stories</item>
+        <item>English </item>
+        <item>English proverb </item>
+        <item>Akbar Stories </item>
+        <item>Short stories </item>
+        <item>Inspiration Stories</item>
+        <item>Kid Stories</item>
+        <item>Life Stories</item>
+        <item>Long Stories</item>
+        <item>Moral Stories</item>
+        <item>Motivation Stories</item>
+        <item>Other Stories</item>
+
+
+    </string-array>
+</resources>
