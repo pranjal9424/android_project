@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">सफलता की कहानिया</string>
+    <string-array name="smsTopic">
+        <item>अब्दुल कलाम</item>
+        <item>अल्बर्ट आइन्स्टीन</item>
+        <item> स्वामी विवेकानंद</item>
+        <item> अब्राहम लिंकन</item>
+        <item> ध्यान चंद</item>
+        <item> जैक मा</item>
+        <item> धीरूभाई अंबानी</item>
+        <item> बिल गेट्स</item>
+        <item> अमिताभ बच्चन</item>
+        <item>श्रीनिवास रामानुजन्</item>
+        <item> स्टीव जॉब्स</item>
+        <item>सचिन तेंदुलकर</item>
+        <item>मिल्खा सिंह</item>
+        <item>मदर टेरसा</item>
+        <item>नवाज़ुद्दीन सिद्दीकी</item>
+        <item>लैरी पेज</item>
+        <item>भीमराव अंबेडकर</item>
+        <item>रितेश अग्रवाल</item>
+        <item>रजनीकांत</item>
+        <item>कर्नल हरलैंड</item>
+
+
+    </string-array>
+</resources>
