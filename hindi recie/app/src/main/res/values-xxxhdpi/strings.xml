@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">हिन्दी रेसिपीज</string>
+    <string-array name="smsTopic">
+        <item> नाश्ता </item>
+        <item> पराठा </item>
+        <item>व्रत फलाहार</item>
+        <item> चटनी  </item>
+        <item> अचार </item>
+        <item> सलाद </item>
+        <item> सब्जी </item>
+        <item> सांभर </item>
+        <item>मिठाई  </item>
+        <item> मांसाहारी </item>
+        <item> पंजाबी </item>
+        <item> गुजराती </item>
+        <item>हिंदी  </item>
+        <item> साउथ इंडियन </item>
+
+
+
+    </string-array>
+</resources>
