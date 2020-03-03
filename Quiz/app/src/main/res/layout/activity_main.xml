@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <Button
+            android:id="@+id/level"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:text="Level 1"
+            android:background="@drawable/button2"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+        <Button
+            android:id="@+id/level2"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:text="Level 2"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button2"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <Button
+            android:id="@+id/level3"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:text="Level 3"
+            android:background="@drawable/button2"
+
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+        <Button
+            android:id="@+id/level4"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:text="Level 4"
+            android:layout_marginLeft="17dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="@drawable/button2"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <Button
+            android:id="@+id/level5"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:text="Level 5"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="@drawable/button2"
+            />
+        <Button
+            android:id="@+id/level6"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:text="Level 6"
+            android:layout_marginLeft="17dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="@drawable/button2"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

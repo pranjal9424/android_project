@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".QuestionsActivity"
+    android:background="#fff">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Questions"
+        android:id="@+id/tvque"
+        android:layout_marginBottom="100dp"
+        android:layout_above="@+id/answersgrp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answersgrp"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        >
+        <!--android:checkedButton="@+id/radioButton"-->
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="A"
+            android:id="@+id/radioButton"
+            android:checked="false"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="B"
+            android:id="@+id/radioButton2"
+            android:checked="false"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="C"
+            android:id="@+id/radioButton3"
+            android:checked="false"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="D"
+            android:id="@+id/radioButton4"
+            android:checked="false"
+            android:background="@drawable/button"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:id="@+id/button3"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/answersgrp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button4"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:id="@+id/buttonquit"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button3"
+        android:textColor="#ffffff" />
+
+
+
+</RelativeLayout>
